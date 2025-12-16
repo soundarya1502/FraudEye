@@ -1,6 +1,18 @@
 # FraudEye – AI-Powered Fake News & Content Verifier
 
-FraudEye is a browser-integrated AI system that detects fake, misleading, or AI-generated news/content using NLP models.
+FraudEye is a browser-integrated AI system that detects fake, misleading, or AI-generated news/content using NLP models.It combines Machine Learning, MERN stack, and a Chrome Extension to analyze online articles, assign credibility scores, and maintain user-specific verification history.
+
+
+# Key Features
+🔍 AI-Based Content Verification
+Uses an NLP model (BERT/DistilBERT) to classify content as fake, real, or uncertain.
+🌐 Chrome Extension Integration
+Analyze selected text or full webpages directly from the browser.
+📊 Interactive Dashboard
+React dashboard with authentication, scan history, statistics, and credibility insights.
+🔐 Secure Authentication
+JWT-based user authentication with per-user scan tracking.
+
 
 ## Modules
 
@@ -22,4 +34,5 @@ FraudEye is a browser-integrated AI system that detects fake, misleading, or AI-
      ml-services - python app.py
 
 ## For Running Frontend
+
     client - npm start
